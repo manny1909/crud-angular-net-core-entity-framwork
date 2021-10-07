@@ -1,0 +1,12 @@
+npm install -g @angular/cli
+ng new "nombre del proyecto"
+ng build
+instalar bootstrap y agregarlo a los estilos de angular.json
+crear componente: ng generate(g) component(c) components/tarjetaCredito(dir/nombre de componente)
+se edita el componente dividido en sus respectivos archivos  que quedan dentro de la carpeta del componente
+ngFor se utiliza en el html para recorrer un arreglo y se escribe de la siguiente manera: dentro de la etiqueta en este caso tr *ngFor let tarjeta(elemento) of listado_tarjetas(lista)
+para usar formularios reactivos se importa ReactiveFormsModule en app.modules.ts
+se crea la variable form tipo FormGroup y en el constructor si agrega un parametro fb tipo Formbuilder para luego inicializar form con la funcion group de fb enviandole como parametro un objeto con la extructura de los datos del formulario
+para bindear el form del html con la variable form se agrega la propiedad [formGroup]="form"(dentro de parentesis se agrega el nombre de la variable)
+en form agregamos otro atributo (ngSubmit)="AgregarTarjeta()/editarTarjeta()"
+ 	
