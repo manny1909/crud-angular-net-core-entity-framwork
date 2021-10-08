@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Backend.Models
 {
-    public class Tarjeta_Credito
+    public class Tarjeta_credito
     {
         public int Id { get; set; }
         [Required] //con dataAnnotations por medio de [Required,Key, etc.] se puede configurar el campo para que no sea nulo, para que sea primary key o foraign 

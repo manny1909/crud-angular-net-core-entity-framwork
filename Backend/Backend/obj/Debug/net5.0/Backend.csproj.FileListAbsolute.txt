@@ -26,3 +26,12 @@ D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-enti
 D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\obj\Debug\net5.0\ref\Backend.dll
 D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\obj\Debug\net5.0\Backend.pdb
 D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\obj\Debug\net5.0\Backend.genruntimeconfig.cache
+D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\bin\Debug\net5.0\Humanizer.dll
+D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\bin\Debug\net5.0\Npgsql.dll
+D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\jhonny\universidad jhonny\proyectos-para-practicar\crud-angular-net-core-entity-framwork\Backend\Backend\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

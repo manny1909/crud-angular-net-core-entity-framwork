@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -32,6 +33,12 @@ namespace Backend
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Backend", Version = "v1" });
             });
+            services.AddDbContext<AplicationDBContext>(options =>
+                options.UseNpgsql(Configuration.GetConnectionString("DevConnection")));
+            services.AddCors(options=>options.AddPolicy("AllowWebApp",
+            builder => builder.AllowAnyOrigin()
+                      .AllowAnyHeader()
+                       .AllowAnyMethod()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,7 +50,7 @@ namespace Backend
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Backend v1"));
             }
-
+            app.UseCors("AllowWebApp");
             app.UseHttpsRedirection();
 
             app.UseRouting();
